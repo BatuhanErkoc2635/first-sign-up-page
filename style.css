@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+CZ:wght@100..400&display=swap');
+.big-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    
+    
+}
+
+.left-container{
+    display: flex;
+    flex: 0.3;
+    background-image: url("https://wallpapercg.com/media/ts_2x/15760.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top ;
+    
+}
+.background-opacity{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-black-overlay-up{
+    flex: 0.15;
+    background-color: rgb(31, 1, 31);
+    opacity: 60%;
+}
+.background-logo-overlay{
+    flex: 0.20;
+    background-color: rgb(8, 0, 6);
+    border: 1px black solid;
+    opacity: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    padding-left: 10;
+    font-size: 32px;
+    overflow: hidden;
+    margin: 0;
+    
+}
+.background-logo-overlay img{
+
+    margin-right: 8px;
+    width: 20%;
+
+   
+    
+}
+.background-black-overlay-bottom{
+    flex: 0.65;
+    background-color: rgb(31, 1, 31);
+    opacity: 60%;
+    
+}
+
+.right-container{
+   flex: 0.7;
+   background-color: green;
+   display: flex;
+   flex-direction: column;
+
+}
+.info-text{
+    background-color: red;
+    flex: 0.44;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+}
+.info-empty{
+    flex: 0.5;
+}
+.info-inside-text{
+
+    color: black;
+    font-size: 26px;
+    padding-left: 4%;
+    padding-right: 25%;
+    flex: 0.5;
+    padding-bottom: 0.1%;
+    
+}
+.italic{
+    color: purple;
+    font-weight: bolder;
+    font-style: italic;
+}
+.table-container{
+    padding-left: 4%;
+    margin-left: 4%;
+    display: column;
+    padding: 0;
+    
+}
+#headingLets{
+    font-weight: normal;
+    font-size: 24px;
+    
+}
+.container1 p{
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.container1 input{
+    border-radius: 4px;
+    border: 2px solid gray;
+}
+
+input:focus{
+    border: 2px solid red;
+}
+.container2 input{
+    border-radius: 4px;
+    border: 2px solid gray;
+}
+.container2 p{
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+}
+.container1{
+    margin-right: 120px;
+}
+
+
+
+.form-section{
+    flex: 0.5;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.57);
+    z-index: 1000;
+}
+.button-section{
+   
+    background-color: rgb(241, 241, 241);
+    flex: 0.25;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-top: 3%;
+    justify-content: flex-start;
+    padding-left: 5%;
+    padding-right: 65%;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    
+}
+.button-section button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 166px;
+}
+.log-link{
+    color: purple;
+    font-weight: 600;
+}
